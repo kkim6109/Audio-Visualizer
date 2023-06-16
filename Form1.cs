@@ -113,6 +113,7 @@ namespace VectorVisualizer
             }
             catch (Exception e)
             {
+                Console.WriteLine(e.Message);
             }
 
             amtShorts = shorts.Length / 2 / totalFrames;
